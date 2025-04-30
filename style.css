@@ -1,0 +1,44 @@
+/* Imports */
+@font-face {
+  font-family: NorseBold;
+  src: url('/assets/Norse-Bold.otf');
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+.side {
+  width: 30%;
+  background: url(./assets/bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  font-size: 6rem;
+  color: #fff;
+  font-family: NorseBold;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
